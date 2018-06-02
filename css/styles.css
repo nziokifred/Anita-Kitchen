@@ -1,0 +1,15 @@
+header h3 {
+    text-align: center;
+}
+header img {
+    position: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+header {
+    background-image: url(../img/landing.jpg)
+}
