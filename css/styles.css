@@ -1,9 +1,6 @@
 header h3 {
     text-align: center;
 }
-header img {
-    position: center;
-}
 .center {
     display: block;
     margin-left: auto;
@@ -12,4 +9,53 @@ header img {
 }
 header {
     background-image: url(../img/landing.jpg)
+}
+
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 20;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 75px;
+   font-size: xx-large
+}
+
+.sidebar1 {
+    float: right;
+    display: block;
+    width: 500px;
+    padding: 100px;
+}
+
+.sidebar {
+    float: left;
+    width: 500px;
+    padding: 100px;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 75px;
+   font-size: x-large;
+}
+
+.food {
+    background-image: url(../img/foodsBg.jpg)
+    background-repeat: no-repeat
+    background-position: cetre centre
+    padding: px
+}
+
+footer  {
+    background-color: orangered
 }

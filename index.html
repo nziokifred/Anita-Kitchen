@@ -1,19 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Anita's Kitchen</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/styles.css"/>
+    <link rel="icon" href="./Images/logoBig.png"/>
 </head>
-<header>
-    <img src="img/logoBig.png" alt="logoBig Image" class="center">
-    <h3>We Provide the Best Food</h3>
-    <h3>At The <strong>Right Price</strong><h3>
-</header>
 <body>
-    
+    <div class="container-fluid">
+        <!--Header and Nav Bar-->
+        <header class="top">
+            <i class="fa fa-align-justify icon"></i>
+            <div class="sidebar">
+            <a href="#">Menu</a><br>
+            <a href="#">Contacts</a><br>
+            <a href="#">Events</a>
+            </div>
+            <div class="head" id="logoBig">
+            <img src="./Images/logoBig.png" alt="Aunty Anita's logo">
+            <p>We provide the best food at the <b>Right Price<b></p>
+            </div>
+        <div class=" top row">
+            <div class=" top col-sm-6 col-md-3 col-lg-3">
+                <div style="background-color: lightgray" class="half">
+                    <p>Happy Hour</p>
+                </div>
+                <div style="background-color: #F15A29" class="half">
+                <p>Party Time</p>
+                </div>
+            </div>
+            <div class=" top col-sm-6 col-md-3 col-lg-3">
+                <div class="breakfast center inline-image all">
+                <p>Breakfast</p>
+                </div>    
+            </div>
+            <div class=" top  col-sm-6 col-md-3 col-lg-3 center">
+                <div class="lunch center inline-image all">
+                <p>Lunch</p>  
+                </div>
+            </div>
+            <div class=" top col-sm-6 col-md-4 col-lg-3 center">
+                <div class="dinner center inline-image all">
+                <p>Dinner</p>
+                </div> 
+            </div>
+        </div>
+        </header>
+        <section>
+            <article>
+                <div class="row">
+                    <div class="initial col-lg-6 col-md-6 col-sm-12">
+                        <div class="foodimages">
+                            <img src="./Images/fastFood1.jpg" alt="image of whole cake">
+                            <img src="./Images/fastFood2.jpg" alt="image of cut cake">
+                        </div>
+                    </div>
+                    <div class="text col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="right">
+                            <h2>Fast Food</h2>
+                            <span><b>You'll love our delicious fast food</b></span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Nisi excepturi quia tempora quos deleniti harum officia
+                             reprehenderit accusamus animi amet accusantium qui 
+                             inventore officiis eum, repellendus, error perspiciatis 
+                             maiores recusandae!</p>
+                             <a class="orange btn btn-lg"><span style="color: #F15A29;font-size: 1em">View Gallery</span><img src="./Images/next.jpeg" alt="next arrow image" class="arrow-image"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="left">
+                            <h2>Drinks</h2>
+                            <span><b>We also produce drinks</b></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Veniam ullam in repellendus ipsam, provident et maiores 
+                            voluptate consequuntur corporis ad minima doloremque,
+                             quidem itaque reprehenderit repudiandae officia rem
+                              tempora quam.</p>
+                            <a class="orange btn btn-lg"><span style="color: #F15A29;font-size: 1em">View Gallery</span><img src="./Images/next.jpeg" alt="next arrow image" class="arrow-image"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="row1 container">
+                        <div class="column1">
+                            <img src="./Images/drink1.jpg" alt="picture of lady sipping drink with straw" width="100%">
+                        </div>
+                        <div class="column1">
+                            <img src="./Images/drink2.jpg" alt="picture of a drink in a glass" width="100%">
+                        </div>
+                        </div>  
+                    </div>
+                </div>
+            </article>
+            <aside>
+                <div class="content row">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <p style="color:orange">Fast Food</p>
+                    </div>
+                    <div class="column col-lg-3 col-md-3 col-sm-6">
+                    <p>Drinks</p>
+                    </div>
+                    <div class="column col-lg-3 col-md-3 col-sm-6">
+                    <p>Chicken</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <p>Rice</p>
+                    </div>
+                    <div class="items row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="./Images/fastfood/chickenBurger.jpg" alt="Chicken Burger image" width="85%" align="right">
+                        <br clear="left">
+                        <p>Chicken Burger</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12"> 
+                        <img src="./Images/fastfood/beefBurger.jpg" alt="image of Beef Burger" width="85%">
+                        <p>Beef Burger</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">   
+                        <img src="./Images/fastfood/chickenPizza.jpg" alt="Image of Chicken Pizza" width="85%" align="left">
+                        <br clear="right">
+                        <p>Chicken Pizza</p>   
+                    </div> 
+                    </div>
+                    </div>
+            </aside>
+        </section>
+        <footer>
+            <div class="row" style="box-shadow: 2px 2px 2px 2px grey">
+            <div class="about col-lg-6 col-md-6 col-sm-12">
+            <h2>Our Happy Customers</h2>
+            <div style="padding: 2%; margin-left: 20%">
+                <h3>George Richard</h3>
+                <p>Great food, menu is awesome their food are not only
+                    great but also in the right price. I'll highly recommend them.</p>
+                <div class="row">
+                    <div style="margin-left: 20%; margin-right: 20%; width: 60%;" id="faorange">
+                        <i class="fa fa-chevron-left"></i>
+                        <img src="./Images/customers/p1.png" alt="Mary's image">
+                        <img src="./Images/customers/p2.png" alt="James image">
+                        <img src="./Images/customers/p3.png" alt="John's Image">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="about col-lg-6 col-md-6 col-sm-12">
+                <h2>About Menu</h2>
+                <div style=" margin-right: 20%; margin-left: 20%;" class="inabt">
+                <p>We are menu a little team of 7 members Ut wisi enim and minim veinam
+                  ,quis nos trudexer, ci tation ullamcorper sucipit lob
+                    ortis nislut aliquip ex ea comodo conse quat .Duisau tem vel eumm iriure
+                    dolor in</p>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </div>
+    <div class="container-fluid">
+    <div class="last row">
+        <p style="font-weight: bold;">Get our daily food items delivered to your email</p>
+        <div style="margin-left: 35%; margin-right: 35%;width: 30%;">
+            <form>
+                <input type="email" placeholder="Your Email" name="email" class="required email" id="email">
+                <input type="submit" value="Subscribe" id="subscribe" class="button">
+           </form>    
+        </div>
+    </div>   
+    </div>
+    <div class="lastly row">
+        <div class="pintrest">
+            <img src="./Images/footerlogos/logo_white.png" alt="pin logo" style="margin-left: 10%;">
+            <span style="margin-left:2%;font-size:1.6em;" align="right">MENU</spans>
+                <p>Thats What We Are</p>
+                <img src="./Images/footerlogos/facebook.png" alt="pin logo" align="left" style="margin-left:10%;"/>
+                <img src="./Images/footerlogos/twitter.png" alt="pin logo" align="left" style="margin-left:2%;"/>
+                <img src="./Images/footerlogos/pinterest.png" alt="pin logo" align="left" style="margin-left:2%;"/>
+                <p style="color:black;font-size:0.5em;">2016 Menu Restaurant</p>
+        </div>
+    </div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118990189-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments) ;}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118990189-1');
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
